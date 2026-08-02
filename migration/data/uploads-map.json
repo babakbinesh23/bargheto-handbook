@@ -1,0 +1,15 @@
+{
+  "exported_at": "2026-08-02",
+  "objects": [
+    {
+      "customization_key": "step-0-image-section-0.div-1.img-0",
+      "source_url": "/api/upload?key=handbook%2Fd0ecd086-2c21-400e-ba5c-dc9769ce3ef9.webp",
+      "r2_key": "handbook/d0ecd086-2c21-400e-ba5c-dc9769ce3ef9.webp",
+      "local_file": "r2/handbook/d0ecd086-2c21-400e-ba5c-dc9769ce3ef9.webp",
+      "content_type": "image/webp"
+    }
+  ],
+  "deleted_references": [
+    "section-company-step-0-image-section-0.div-1.img-0"
+  ]
+}

@@ -1,0 +1,1 @@
+ALTER TABLE `handbook_content` ADD `customizations` text DEFAULT '{}' NOT NULL;

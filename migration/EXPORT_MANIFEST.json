@@ -1,0 +1,42 @@
+{
+  "bundle_name": "bargheto-handbook-V62",
+  "bundle_version": 62,
+  "source_site_version": 61,
+  "source_commit": "0b12deb89624d9fbd7432aa82843d8e012466193",
+  "exported_at": "2026-08-02",
+  "source_url": "https://bargheto-handbook.bargheto-gpt2026.chatgpt.site",
+  "project": {
+    "runtime": "Node.js >= 22.13.0 / Vinext / Cloudflare Workers",
+    "database_binding": "DB (Cloudflare D1 compatible)",
+    "object_storage_binding": "BUCKET (Cloudflare R2 compatible)"
+  },
+  "included": {
+    "source_code": true,
+    "drizzle_migrations": true,
+    "static_public_assets": 17,
+    "public_content_snapshot": true,
+    "customizations_snapshot": true,
+    "notifications_snapshot": true,
+    "referenced_uploaded_objects": 1,
+    "seed_sql": true,
+    "migration_guide": true
+  },
+  "export_adjustments": [
+    "The rendered HTML test targets /login because the current root route intentionally redirects to /login. Application behavior is unchanged."
+  ],
+  "validation": {
+    "application_build": "passed on the source checkout",
+    "rendered_login_test": "passed after aligning the test route with the intentional /login redirect",
+    "json_files": "valid",
+    "referenced_r2_object": "downloaded and recognized as WebP"
+  },
+  "excluded": {
+    "node_modules": "Recreate with npm ci",
+    "git_history": "Not required for deployment",
+    "environment_secrets": "Never included in an export archive",
+    "active_sessions_and_cookies": "Security-sensitive and non-portable",
+    "manager_password_hashes": "Admin-only D1 data was not exposed by the export interface",
+    "user_permissions": "Admin-only D1 data was not exposed by the export interface",
+    "full_audit_log": "Admin-only D1 data was not exposed by the export interface"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1785314046296,
+      "tag": "0000_cuddly_namor",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1785322556847,
+      "tag": "0001_lumpy_dracula",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1785567709358,
+      "tag": "0002_lying_wonder_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1785575447500,
+      "tag": "0003_neat_kronos",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1785578979780,
+      "tag": "0004_tired_madame_hydra",
+      "breakpoints": true
+    }
+  ]
+}
